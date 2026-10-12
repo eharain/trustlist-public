@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "trustlist-badge"
+version = "0.1.0"
+description = "Show your TrustList rank badge on your website: the badge image, linked to the ranking it cites."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+authors = [{ name = "TrustList" }]
+keywords = ["trustlist", "badge", "ranking", "reviews"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
+[project.urls]
+Homepage = "https://trustlist.uk/developers"
+Source = "https://github.com/eharain/trustlist-public/tree/main/packages/python"
+Specification = "https://github.com/eharain/trustlist-public/blob/main/spec/badge.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/trustlist_badge"]

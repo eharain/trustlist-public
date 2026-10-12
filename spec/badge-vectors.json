@@ -30,12 +30,12 @@
         "page": "/best/accounting-firm/united-kingdom",
         "size": "small",
         "base": "https://example.test/",
-        "label": "Top Accounting Firms in the UK & \"more\" <test>"
+        "label": "Top Accounting Firms in the UK & \"more\" <test>, it's"
       },
       "rankingUrl": "https://example.test/best/accounting-firm/united-kingdom",
       "badgeUrl": "https://example.test/badges/rank?type=company&slug=acme-ltd&page=%2Fbest%2Faccounting-firm%2Funited-kingdom",
       "verifyUrl": "https://example.test/badges/verify?type=company&slug=acme-ltd&page=%2Fbest%2Faccounting-firm%2Funited-kingdom",
-      "badgeHtml": "<a href=\"https://example.test/best/accounting-firm/united-kingdom\" title=\"See this ranking on TrustList\"><img src=\"https://example.test/badges/rank?type=company&amp;slug=acme-ltd&amp;page=%2Fbest%2Faccounting-firm%2Funited-kingdom\" width=\"240\" height=\"48\" alt=\"Top Accounting Firms in the UK &amp; &quot;more&quot; &lt;test&gt;\" loading=\"lazy\" style=\"border:0;max-width:100%;height:auto\"></a> <a href=\"https://example.test/badges/verify?type=company&amp;slug=acme-ltd&amp;page=%2Fbest%2Faccounting-firm%2Funited-kingdom\" style=\"font:11px system-ui,sans-serif;color:#64748b\">Verify</a>"
+      "badgeHtml": "<a href=\"https://example.test/best/accounting-firm/united-kingdom\" title=\"See this ranking on TrustList\"><img src=\"https://example.test/badges/rank?type=company&amp;slug=acme-ltd&amp;page=%2Fbest%2Faccounting-firm%2Funited-kingdom\" width=\"240\" height=\"48\" alt=\"Top Accounting Firms in the UK &amp; &quot;more&quot; &lt;test&gt;, it&#39;s\" loading=\"lazy\" style=\"border:0;max-width:100%;height:auto\"></a> <a href=\"https://example.test/badges/verify?type=company&amp;slug=acme-ltd&amp;page=%2Fbest%2Faccounting-firm%2Funited-kingdom\" style=\"font:11px system-ui,sans-serif;color:#64748b\">Verify</a>"
     }
   ],
   "invalid": [

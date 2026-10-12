@@ -1,0 +1,25 @@
+{
+    "name": "trustlist/badge",
+    "description": "Show your TrustList rank badge on your website: the badge image, linked to the ranking it cites.",
+    "type": "library",
+    "keywords": ["trustlist", "badge", "ranking", "reviews"],
+    "homepage": "https://trustlist.uk/developers",
+    "license": "MIT",
+    "authors": [{ "name": "TrustList", "homepage": "https://trustlist.uk" }],
+    "support": {
+        "issues": "https://github.com/eharain/trustlist-public/issues",
+        "source": "https://github.com/eharain/trustlist-public/tree/main/packages/php"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": { "TrustList\\": "packages/php/src/" }
+    },
+    "scripts": {
+        "test": "php packages/php/tests/run.php"
+    },
+    "archive": {
+        "exclude": ["/packages/badge", "/packages/dotnet", "/packages/go", "/packages/python", "/briefs", "/resources", "/examples", "/dist", "/.github"]
+    }
+}

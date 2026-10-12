@@ -31,7 +31,7 @@ if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/').replace(/
   const valid = [
     { type: 'company', slug: 'acme-ltd', page: '/best/web-design-agency/london' },
     { type: 'product', slug: 'postgresql', page: '/best/rdbms-software/sql', edition: '2026-Q4' },
-    { type: 'company', slug: 'acme-ltd', page: '/best/accounting-firm/united-kingdom', size: 'small', base: 'https://example.test/', label: 'Top Accounting Firms in the UK & "more" <test>' },
+    { type: 'company', slug: 'acme-ltd', page: '/best/accounting-firm/united-kingdom', size: 'small', base: 'https://example.test/', label: "Top Accounting Firms in the UK & \"more\" <test>, it's" },
   ];
   const invalid = [
     { type: 'person', slug: 'acme-ltd', page: '/best/x' },
