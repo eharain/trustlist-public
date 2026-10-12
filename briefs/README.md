@@ -1,6 +1,7 @@
 ---
 title: "TrustList daily briefs"
 description: "A short daily summary of what TrustList published: news, funding rounds, research and rankings, with links."
+permalink: /briefs/
 ---
 
 # TrustList daily briefs

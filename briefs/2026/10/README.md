@@ -1,6 +1,7 @@
 ---
 title: "TrustList daily briefs: October 2026"
 description: "Every TrustList daily brief for October 2026, newest first."
+permalink: /briefs/2026/10/
 ---
 
 # TrustList daily briefs: October 2026
