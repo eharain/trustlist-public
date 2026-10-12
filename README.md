@@ -5,7 +5,10 @@ software, IT services and B2B firms by category and country.
 
 | Package | Registry | What it does | Status |
 |---|---|---|---|
-| [`@trustlist/badge`](packages/badge) | npm | Web component that shows a business's TrustList rank badge and links to the ranking | 0.1.0, not yet published |
+| [`@trustlist/badge`](packages/badge) | [npm](https://www.npmjs.com/package/@trustlist/badge) | Web component that shows a business's TrustList rank badge and links to the ranking | 0.1.0 |
+
+Looking for the rankings themselves? See [resources](resources/README.md): how TrustList ranks, the
+database engine rankings, software rankings by feature, and B2B companies by country.
 
 Coming next: a WordPress plugin, API clients for JavaScript, Python, PHP, .NET, Go, Rust and more,
 and an MCP server so AI assistants can look up TrustList rankings. The developer documentation is at
