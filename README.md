@@ -6,6 +6,12 @@ software, IT services and B2B firms by category and country.
 | Package | Registry | What it does | Status |
 |---|---|---|---|
 | [`@trustlist/badge`](packages/badge) | [npm](https://www.npmjs.com/package/@trustlist/badge) | Web component that shows a business's TrustList rank badge and links to the ranking | 0.1.0 |
+| [`TrustList.Badge`](packages/dotnet) | NuGet | The badge snippet for .NET sites, printed in the page's HTML | 0.1.0 |
+| [`packages/go`](packages/go) | Go modules | The badge snippet for Go sites | 0.1.0 |
+
+Every language version follows one [specification](spec/badge.md) and passes the same
+[test cases](spec/badge-vectors.json), so a badge prints the same everywhere. More languages are on
+the way: PHP, Python, Ruby, Rust, Java and others.
 
 Looking for the rankings themselves? See [resources](resources/README.md): how TrustList ranks, the
 database engine rankings, software rankings by feature, and B2B companies by country.

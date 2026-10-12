@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>TrustList.Badge</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>TrustList</Authors>
+    <Company>TrustList</Company>
+    <Description>Show your TrustList rank badge on your website: builds the badge image URL, the ranking it links to, and a ready-to-print HTML snippet.</Description>
+    <PackageTags>trustlist;badge;ranking;reviews</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://trustlist.uk/developers</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eharain/trustlist-public</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
