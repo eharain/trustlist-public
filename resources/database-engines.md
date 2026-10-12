@@ -15,6 +15,12 @@ Popularity ranks, third-party benchmarks and market share estimates are not used
 All five are part of the [Q4 2026 edition](https://trustlist.uk/best/editions/2026-Q4) and follow the
 [TrustList Score method](how-trustlist-ranks.md).
 
+## Further reading
+
+- [89 database engines, 28 ranks: what their own websites let us check](https://medium.com/@eharain_5614/89-database-engines-28-ranks-what-their-own-websites-let-us-check-9329f343ddbc)
+  (Medium, October 2026): how many engines in each group could be ranked on evidence, and the four
+  pages that would let any buyer check a maker's claims.
+
 ## Maintainers
 
 If you maintain one of these engines and something on its listing is wrong or out of date (a version,
