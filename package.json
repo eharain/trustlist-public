@@ -1,0 +1,9 @@
+{
+  "name": "trustlist-public",
+  "private": true,
+  "description": "Open-source TrustList toolkits",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT"
+}

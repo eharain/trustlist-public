@@ -1,0 +1,38 @@
+{
+  "name": "@trustlist/badge",
+  "version": "0.1.0",
+  "description": "Show your TrustList rank badge on your website: a small web component that links to the ranking it cites.",
+  "type": "module",
+  "main": "src/trustlist-badge.js",
+  "module": "src/trustlist-badge.js",
+  "exports": {
+    ".": "./src/trustlist-badge.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "trustlist",
+    "badge",
+    "ranking",
+    "web-component",
+    "custom-element",
+    "reviews"
+  ],
+  "homepage": "https://trustlist.uk/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eharain/trustlist-public.git",
+    "directory": "packages/badge"
+  },
+  "bugs": {
+    "url": "https://github.com/eharain/trustlist-public/issues"
+  },
+  "license": "MIT",
+  "sideEffects": true,
+  "publishConfig": {
+    "access": "public"
+  }
+}
