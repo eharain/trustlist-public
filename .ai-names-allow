@@ -1,0 +1,8 @@
+# Paths whose CONTENT may name an AI provider. Read by the global git hooks (pre-commit / pre-push):
+# a listed path is waived for the content scan only; author identity, commit message and file NAME
+# are never exempted. One shell glob per line; the reason goes after the #.
+#
+# The daily briefs summarise TrustList's published news, and AI products and their makers are part of
+# that news: naming them there is reporting, not attribution.
+
+briefs/*                                  # daily summaries of published articles, which cover AI products as news

@@ -14,7 +14,8 @@ Every language version follows one [specification](spec/badge.md) and passes the
 the way: PHP, Python, Ruby, Rust, Java and others.
 
 Looking for the rankings themselves? See [resources](resources/README.md): how TrustList ranks, the
-database engine rankings, software rankings by feature, and B2B companies by country.
+database engine rankings, software rankings by feature, and B2B companies by country. For what
+TrustList publishes each day, see the [daily briefs](briefs/README.md).
 
 Coming next: a WordPress plugin, API clients for JavaScript, Python, PHP, .NET, Go, Rust and more,
 and an MCP server so AI assistants can look up TrustList rankings. The developer documentation is at
