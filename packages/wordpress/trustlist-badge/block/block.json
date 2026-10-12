@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "trustlist/badge",
+  "title": "TrustList Badge",
+  "category": "widgets",
+  "icon": "awards",
+  "description": "Your TrustList rank badge, linked to the ranking it cites.",
+  "keywords": ["trustlist", "badge", "ranking"],
+  "textdomain": "trustlist-badge",
+  "attributes": {
+    "type": { "type": "string", "default": "" },
+    "slug": { "type": "string", "default": "" },
+    "page": { "type": "string", "default": "" },
+    "edition": { "type": "string", "default": "" },
+    "size": { "type": "string", "default": "" },
+    "label": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false, "align": ["left", "center", "right"] },
+  "editorScript": "file:./edit.js"
+}
