@@ -1,0 +1,13 @@
+name: trustlist_badge
+description: Show your TrustList rank badge on your website. Builds the badge image, linked to the ranking it cites, with a small Verify link.
+version: 0.1.0
+homepage: https://trustlist.uk/developers
+repository: https://github.com/eharain/trustlist-public/tree/main/packages/dart
+issue_tracker: https://github.com/eharain/trustlist-public/issues
+topics: [badge, ranking, reviews, html]
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  test: ^1.25.0

@@ -1,0 +1,79 @@
+{
+  "valid": [
+    {
+      "input": {
+        "type": "company",
+        "slug": "acme-ltd",
+        "page": "/best/web-design-agency/london"
+      },
+      "rankingUrl": "https://trustlist.uk/best/web-design-agency/london",
+      "badgeUrl": "https://trustlist.uk/badges/rank?type=company&slug=acme-ltd&page=%2Fbest%2Fweb-design-agency%2Flondon",
+      "verifyUrl": "https://trustlist.uk/badges/verify?type=company&slug=acme-ltd&page=%2Fbest%2Fweb-design-agency%2Flondon",
+      "badgeHtml": "<a href=\"https://trustlist.uk/best/web-design-agency/london\" title=\"See this ranking on TrustList\"><img src=\"https://trustlist.uk/badges/rank?type=company&amp;slug=acme-ltd&amp;page=%2Fbest%2Fweb-design-agency%2Flondon\" width=\"320\" height=\"64\" alt=\"TrustList rank badge\" loading=\"lazy\" style=\"border:0;max-width:100%;height:auto\"></a> <a href=\"https://trustlist.uk/badges/verify?type=company&amp;slug=acme-ltd&amp;page=%2Fbest%2Fweb-design-agency%2Flondon\" style=\"font:11px system-ui,sans-serif;color:#64748b\">Verify</a>"
+    },
+    {
+      "input": {
+        "type": "product",
+        "slug": "postgresql",
+        "page": "/best/rdbms-software/sql",
+        "edition": "2026-Q4"
+      },
+      "rankingUrl": "https://trustlist.uk/best/rdbms-software/sql",
+      "badgeUrl": "https://trustlist.uk/badges/rank?type=product&slug=postgresql&page=%2Fbest%2Frdbms-software%2Fsql&edition=2026-Q4",
+      "verifyUrl": "https://trustlist.uk/badges/verify?type=product&slug=postgresql&page=%2Fbest%2Frdbms-software%2Fsql&edition=2026-Q4",
+      "badgeHtml": "<a href=\"https://trustlist.uk/best/rdbms-software/sql\" title=\"See this ranking on TrustList\"><img src=\"https://trustlist.uk/badges/rank?type=product&amp;slug=postgresql&amp;page=%2Fbest%2Frdbms-software%2Fsql&amp;edition=2026-Q4\" width=\"320\" height=\"64\" alt=\"TrustList rank badge\" loading=\"lazy\" style=\"border:0;max-width:100%;height:auto\"></a> <a href=\"https://trustlist.uk/badges/verify?type=product&amp;slug=postgresql&amp;page=%2Fbest%2Frdbms-software%2Fsql&amp;edition=2026-Q4\" style=\"font:11px system-ui,sans-serif;color:#64748b\">Verify</a>"
+    },
+    {
+      "input": {
+        "type": "company",
+        "slug": "acme-ltd",
+        "page": "/best/accounting-firm/united-kingdom",
+        "size": "small",
+        "base": "https://example.test/",
+        "label": "Top Accounting Firms in the UK & \"more\" <test>, it's"
+      },
+      "rankingUrl": "https://example.test/best/accounting-firm/united-kingdom",
+      "badgeUrl": "https://example.test/badges/rank?type=company&slug=acme-ltd&page=%2Fbest%2Faccounting-firm%2Funited-kingdom",
+      "verifyUrl": "https://example.test/badges/verify?type=company&slug=acme-ltd&page=%2Fbest%2Faccounting-firm%2Funited-kingdom",
+      "badgeHtml": "<a href=\"https://example.test/best/accounting-firm/united-kingdom\" title=\"See this ranking on TrustList\"><img src=\"https://example.test/badges/rank?type=company&amp;slug=acme-ltd&amp;page=%2Fbest%2Faccounting-firm%2Funited-kingdom\" width=\"240\" height=\"48\" alt=\"Top Accounting Firms in the UK &amp; &quot;more&quot; &lt;test&gt;, it&#39;s\" loading=\"lazy\" style=\"border:0;max-width:100%;height:auto\"></a> <a href=\"https://example.test/badges/verify?type=company&amp;slug=acme-ltd&amp;page=%2Fbest%2Faccounting-firm%2Funited-kingdom\" style=\"font:11px system-ui,sans-serif;color:#64748b\">Verify</a>"
+    }
+  ],
+  "invalid": [
+    {
+      "input": {
+        "type": "person",
+        "slug": "acme-ltd",
+        "page": "/best/x"
+      }
+    },
+    {
+      "input": {
+        "type": "company",
+        "slug": "Acme Ltd",
+        "page": "/best/x"
+      }
+    },
+    {
+      "input": {
+        "type": "company",
+        "slug": "",
+        "page": "/best/x"
+      }
+    },
+    {
+      "input": {
+        "type": "company",
+        "slug": "acme-ltd",
+        "page": "/top/x"
+      }
+    },
+    {
+      "input": {
+        "type": "company",
+        "slug": "acme-ltd",
+        "page": "/best/x",
+        "size": "huge"
+      }
+    }
+  ]
+}

@@ -10,3 +10,5 @@ __pycache__/
 target/
 vendor/
 .phpunit.result.cache
+.dart_tool/
+pubspec.lock

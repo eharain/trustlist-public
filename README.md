@@ -3,15 +3,23 @@
 Open-source tools for working with [TrustList](https://trustlist.uk), the independent rankings of
 software, IT services and B2B firms by category and country.
 
-| Package | Registry | What it does | Status |
+| Package | Language | Registry | Status |
 |---|---|---|---|
-| [`@trustlist/badge`](packages/badge) | [npm](https://www.npmjs.com/package/@trustlist/badge) | Web component that shows a business's TrustList rank badge and links to the ranking | 0.1.0 |
-| [`TrustList.Badge`](packages/dotnet) | NuGet | The badge snippet for .NET sites, printed in the page's HTML | 0.1.0 |
-| [`packages/go`](packages/go) | Go modules | The badge snippet for Go sites | 0.1.0 |
+| [](packages/badge) | JavaScript (web component) | [npm](https://www.npmjs.com/package/@trustlist/badge) | 0.1.0, published |
+| [](packages/go) | Go | [Go modules](https://pkg.go.dev/github.com/eharain/trustlist-public/packages/go) | 0.1.0, published |
+| [](packages/dotnet) | .NET | NuGet | 0.1.0 |
+| [](packages/python) | Python | PyPI | 0.1.0 |
+| [](packages/php) | PHP | Packagist | 0.1.0 |
+| [](packages/ruby) | Ruby | RubyGems | 0.1.0 |
+| [](packages/rust) | Rust | crates.io | 0.1.0 |
+| [](packages/java) | Java | Maven Central | 0.1.0 |
+| [](packages/dart) | Dart | pub.dev | 0.1.0 |
+
+The server-side packages print the badge link straight into a page's HTML, which every visitor and
+search engine sees.
 
 Every language version follows one [specification](spec/badge.md) and passes the same
-[test cases](spec/badge-vectors.json), so a badge prints the same everywhere. More languages are on
-the way: PHP, Python, Ruby, Rust, Java and others.
+[test cases](spec/badge-vectors.json), so a badge prints the same everywhere.
 
 Looking for the rankings themselves? See [resources](resources/README.md): how TrustList ranks, the
 database engine rankings, software rankings by feature, and B2B companies by country. For what
