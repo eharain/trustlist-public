@@ -1,0 +1,19 @@
+[package]
+name = "trustlist-badge"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.60"
+description = "Show your TrustList rank badge on your website: the badge image, linked to the ranking it cites."
+license = "MIT"
+readme = "README.md"
+homepage = "https://trustlist.uk/developers"
+repository = "https://github.com/eharain/trustlist-public"
+documentation = "https://docs.rs/trustlist-badge"
+keywords = ["trustlist", "badge", "ranking", "reviews", "html"]
+categories = ["web-programming"]
+include = ["src/**", "README.md", "LICENSE", "Cargo.toml"]
+
+[dependencies]
+
+[dev-dependencies]
+serde_json = "1"
