@@ -6,3 +6,4 @@
 # that news: naming them there is reporting, not attribution.
 
 briefs/*                                  # daily summaries of published articles, which cover AI products as news
+packages/mcp/*                            # MCP server: set-up instructions name the assistants that can run it
