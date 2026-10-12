@@ -14,7 +14,7 @@ import { z } from "zod";
 import { getBadges, getRanking, makeClient, searchTrustList } from "./tools.js";
 
 const get = makeClient({ base: process.env.TRUSTLIST_BASE || undefined });
-const server = new McpServer({ name: "trustlist", version: "0.1.0" });
+const server = new McpServer({ name: "trustlist", version: "0.1.1" });
 
 const text = (t) => ({ content: [{ type: "text", text: t }] });
 const fail = (e) => ({ content: [{ type: "text", text: `TrustList: ${e.message}` }], isError: true });

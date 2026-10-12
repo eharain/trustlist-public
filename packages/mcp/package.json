@@ -1,20 +1,44 @@
 {
   "name": "@trustlist/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.eharain/trustlist",
   "description": "MCP server for TrustList: lets AI assistants search TrustList's rankings of software, IT services and B2B firms, and cite them. Read-only, no key.",
   "type": "module",
-  "bin": { "trustlist-mcp": "src/index.js" },
+  "bin": {
+    "trustlist-mcp": "src/index.js"
+  },
   "main": "src/index.js",
-  "files": ["src", "README.md", "LICENSE"],
-  "scripts": { "test": "node test/e2e.mjs" },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/e2e.mjs"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "zod": "^3.23.8"
   },
-  "engines": { "node": ">=18" },
-  "keywords": ["mcp", "model-context-protocol", "trustlist", "rankings", "software", "reviews"],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "trustlist",
+    "rankings",
+    "software",
+    "reviews"
+  ],
   "homepage": "https://trustlist.uk/developers",
-  "repository": { "type": "git", "url": "git+https://github.com/eharain/trustlist-public.git", "directory": "packages/mcp" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eharain/trustlist-public.git",
+    "directory": "packages/mcp"
+  },
   "license": "MIT",
-  "publishConfig": { "access": "public" }
+  "publishConfig": {
+    "access": "public"
+  }
 }
