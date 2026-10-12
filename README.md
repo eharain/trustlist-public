@@ -5,15 +5,15 @@ software, IT services and B2B firms by category and country.
 
 | Package | Language | Registry | Status |
 |---|---|---|---|
-| [](packages/badge) | JavaScript (web component) | [npm](https://www.npmjs.com/package/@trustlist/badge) | 0.1.0, published |
-| [](packages/go) | Go | [Go modules](https://pkg.go.dev/github.com/eharain/trustlist-public/packages/go) | 0.1.0, published |
-| [](packages/dotnet) | .NET | NuGet | 0.1.0 |
-| [](packages/python) | Python | PyPI | 0.1.0 |
-| [](packages/php) | PHP | Packagist | 0.1.0 |
-| [](packages/ruby) | Ruby | RubyGems | 0.1.0 |
-| [](packages/rust) | Rust | crates.io | 0.1.0 |
-| [](packages/java) | Java | Maven Central | 0.1.0 |
-| [](packages/dart) | Dart | pub.dev | 0.1.0 |
+| [`@trustlist/badge`](packages/badge) | JavaScript (web component) | [npm](https://www.npmjs.com/package/@trustlist/badge) | 0.1.0, published |
+| [`packages/go`](packages/go) | Go | [Go modules](https://pkg.go.dev/github.com/eharain/trustlist-public/packages/go) | 0.1.0, published |
+| [`TrustList.Badge`](packages/dotnet) | .NET | NuGet | 0.1.0 |
+| [`trustlist-badge`](packages/python) | Python | PyPI | 0.1.0 |
+| [`trustlist/badge`](packages/php) | PHP | Packagist | 0.1.0 |
+| [`trustlist-badge`](packages/ruby) | Ruby | RubyGems | 0.1.0 |
+| [`trustlist-badge`](packages/rust) | Rust | crates.io | 0.1.0 |
+| [`uk.trustlist:trustlist-badge`](packages/java) | Java | Maven Central | 0.1.0 |
+| [`trustlist_badge`](packages/dart) | Dart | pub.dev | 0.1.0 |
 
 The server-side packages print the badge link straight into a page's HTML, which every visitor and
 search engine sees.
