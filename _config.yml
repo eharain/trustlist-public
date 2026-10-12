@@ -21,3 +21,4 @@ exclude:
   - package.json
   - .ai-names-allow
   - .gitattributes
+  - .github/
