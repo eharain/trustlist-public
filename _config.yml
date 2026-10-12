@@ -1,0 +1,23 @@
+# GitHub Pages: serves this repository at https://eharain.github.io/trustlist-public/
+# The README becomes the home page; the daily briefs and resources are pages under it.
+title: TrustList public toolkits and daily briefs
+description: Open-source TrustList badge packages, pointers to TrustList's rankings, and a daily summary of what TrustList published.
+url: https://eharain.github.io
+baseurl: /trustlist-public
+theme: minima
+lang: en-GB
+plugins:
+  - jekyll-seo-tag
+  - jekyll-relative-links
+  - jekyll-sitemap
+relative_links:
+  enabled: true
+  collections: false
+exclude:
+  - packages/
+  - spec/
+  - examples/
+  - dist/
+  - package.json
+  - .ai-names-allow
+  - .gitattributes
