@@ -12,7 +12,7 @@
     <header class="hero">
       <p class="kicker"><a href="{{ '/briefs/' | relative_url }}">Daily brief</a></p>
       <h1>{{ page.date_label | default: page.title }}</h1>
-      <p class="lead">{{ page.count }} {% if page.count == 1 %}story{% else %}stories{% endif %} published on TrustList. Each title opens the full article, with related rankings where we have them.</p>
+      <p class="lead">{{ page.count }} {% if page.count == 1 %}story{% else %}stories{% endif %} published on TrustList{% if page.launch %}, the launch of the {{ page.edition }} ranking edition{% endif %}{% if page.rankings %} and rankings from the {{ page.edition }} edition{% endif %}. Each title opens the full article or ranking on TrustList.</p>
       {% if page.sections %}
       <ul class="chips" aria-label="Sections">
         {% for s in page.sections %}<li><a href="#{{ s.name | slugify }}">{{ s.name }} <span>{{ s.count }}</span></a></li>{% endfor %}
