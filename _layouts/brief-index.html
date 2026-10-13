@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-GB' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/briefs.css' | relative_url }}">
+</head>
+<body>
+  {% include briefs-bar.html %}
+  <main class="wrap">
+    <header class="hero">
+      <p class="kicker">{% if page.kicker %}<a href="{{ '/briefs/' | relative_url }}">{{ page.kicker }}</a>{% else %}TrustList{% endif %}</p>
+      <h1>{{ page.heading | default: page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+    </header>
+    <div class="index-body">
+      {{ content }}
+    </div>
+  </main>
+  {% include briefs-footer.html %}
+</body>
+</html>

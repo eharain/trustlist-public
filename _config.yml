@@ -6,6 +6,11 @@ url: https://eharain.github.io
 baseurl: /trustlist-public
 theme: minima
 lang: en-GB
+# Minima's top menu: only these, not every page (each daily brief would otherwise add a link).
+# The briefs themselves use _layouts/brief.html and brief-index.html with assets/css/briefs.css.
+header_pages:
+  - briefs/README.md
+  - resources/README.md
 plugins:
   - jekyll-seo-tag
   - jekyll-relative-links

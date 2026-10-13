@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-GB' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/briefs.css' | relative_url }}">
+</head>
+<body>
+  {% include briefs-bar.html %}
+  <main class="wrap">
+    <header class="hero">
+      <p class="kicker"><a href="{{ '/briefs/' | relative_url }}">Daily brief</a></p>
+      <h1>{{ page.date_label | default: page.title }}</h1>
+      <p class="lead">{{ page.count }} {% if page.count == 1 %}story{% else %}stories{% endif %} published on TrustList. Each title opens the full article, with related rankings where we have them.</p>
+      {% if page.sections %}
+      <ul class="chips" aria-label="Sections">
+        {% for s in page.sections %}<li><a href="#{{ s.name | slugify }}">{{ s.name }} <span>{{ s.count }}</span></a></li>{% endfor %}
+      </ul>
+      {% endif %}
+    </header>
+
+    <article class="brief-body">
+      {{ content }}
+    </article>
+
+    <nav class="pager" aria-label="Other briefs">
+      {% if page.previous_url %}<a class="prev" href="{{ page.previous_url | relative_url }}"><span>Previous</span>{{ page.previous_label }}</a>{% else %}<span></span>{% endif %}
+      {% if page.next_url %}<a class="next" href="{{ page.next_url | relative_url }}"><span>Next</span>{{ page.next_label }}</a>{% else %}<span></span>{% endif %}
+    </nav>
+    <p class="more"><a href="{{ page.month_url | relative_url }}">All briefs for {{ page.month_label }}</a> <a href="{{ '/briefs/' | relative_url }}">All briefs</a></p>
+  </main>
+  {% include briefs-footer.html %}
+</body>
+</html>
