@@ -11,6 +11,9 @@ permalink: /briefs/2026/10/
 
 Every TrustList daily brief for October 2026, newest first.
 
+- [Tuesday 27 October 2026](2026-10-27.md) <span class="meta">33 stories: Rankings, Business news, Security advisories, News, Funding news, Robotics &amp; Automation, Blog, Autonomous Vehicles &amp; Mobility</span>
+- [Monday 26 October 2026](2026-10-26.md) <span class="meta">14 stories: Rankings, News, Funding news, Security advisories, HR News, Business news, Blog</span>
+- [Sunday 25 October 2026](2026-10-25.md) <span class="meta">12 stories: Rankings, Security advisories, News, Funding news</span>
 - [Saturday 24 October 2026](2026-10-24.md) <span class="meta">16 stories: Rankings, News, Business news, HR News, Security advisories, Funding news</span>
 - [Friday 23 October 2026](2026-10-23.md) <span class="meta">33 stories: Rankings, Business news, News, Security advisories, HR News, Modern Cars, Funding news</span>
 - [Thursday 22 October 2026](2026-10-22.md) <span class="meta">31 stories: Rankings, Security advisories, Funding news, News, HR News, Autonomous Vehicles &amp; Mobility, Business news</span>
