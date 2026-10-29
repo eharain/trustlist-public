@@ -12,6 +12,7 @@ A short summary of what [TrustList](https://trustlist.uk) published each day: ne
 
 ## Latest
 
+- [Wednesday 28 October 2026](2026/10/2026-10-28.md) <span class="meta">26 stories: Rankings, News, Funding news, Security advisories, Business news</span>
 - [Tuesday 27 October 2026](2026/10/2026-10-27.md) <span class="meta">33 stories: Rankings, Business news, Security advisories, News, Funding news, Robotics &amp; Automation, Blog, Autonomous Vehicles &amp; Mobility</span>
 - [Monday 26 October 2026](2026/10/2026-10-26.md) <span class="meta">14 stories: Rankings, News, Funding news, Security advisories, HR News, Business news, Blog</span>
 - [Sunday 25 October 2026](2026/10/2026-10-25.md) <span class="meta">12 stories: Rankings, Security advisories, News, Funding news</span>
@@ -38,4 +39,4 @@ A short summary of what [TrustList](https://trustlist.uk) published each day: ne
 
 ## By month
 
-- [October 2026](2026/10/README.md) <span class="meta">23 briefs, 621 stories</span>
+- [October 2026](2026/10/README.md) <span class="meta">24 briefs, 647 stories</span>
