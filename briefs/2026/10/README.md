@@ -11,6 +11,7 @@ permalink: /briefs/2026/10/
 
 Every TrustList daily brief for October 2026, newest first.
 
+- [Saturday 31 October 2026](2026-10-31.md) <span class="meta">17 stories: Rankings, News, Business news, Funding news, Security advisories</span>
 - [Friday 30 October 2026](2026-10-30.md) <span class="meta">14 stories: Rankings, News, Security advisories, Business news</span>
 - [Thursday 29 October 2026](2026-10-29.md) <span class="meta">34 stories: Rankings, News, Security advisories, Funding news, Blog, Business news</span>
 - [Wednesday 28 October 2026](2026-10-28.md) <span class="meta">26 stories: Rankings, News, Funding news, Security advisories, Business news</span>
