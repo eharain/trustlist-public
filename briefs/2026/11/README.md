@@ -11,6 +11,7 @@ permalink: /briefs/2026/11/
 
 Every TrustList daily brief for November 2026, newest first.
 
+- [Friday 6 November 2026](2026-11-06.md) <span class="meta">20 stories: Rankings, News, Business news, Security advisories, HR News, Funding news</span>
 - [Thursday 5 November 2026](2026-11-05.md) <span class="meta">31 stories: Rankings, Security advisories, News, Business news, Funding news</span>
 - [Wednesday 4 November 2026](2026-11-04.md) <span class="meta">21 stories: Rankings, News, Security advisories, Funding news, Business news, HR News, Artificial Intelligence News</span>
 - [Tuesday 3 November 2026](2026-11-03.md) <span class="meta">29 stories: Rankings, News, Security advisories, Funding news, Business news</span>
