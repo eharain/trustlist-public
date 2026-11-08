@@ -12,6 +12,7 @@ A short summary of what [TrustList](https://trustlist.uk) published each day: ne
 
 ## Latest
 
+- [Saturday 7 November 2026](2026/11/2026-11-07.md) <span class="meta">44 stories: Rankings, Security advisories, News, HR News, Business news, Funding news, Robotics &amp; Automation, Modern Cars, Autonomous Vehicles &amp; Mobility</span>
 - [Friday 6 November 2026](2026/11/2026-11-06.md) <span class="meta">20 stories: Rankings, News, Business news, Security advisories, HR News, Funding news</span>
 - [Thursday 5 November 2026](2026/11/2026-11-05.md) <span class="meta">31 stories: Rankings, Security advisories, News, Business news, Funding news</span>
 - [Wednesday 4 November 2026](2026/11/2026-11-04.md) <span class="meta">21 stories: Rankings, News, Security advisories, Funding news, Business news, HR News, Artificial Intelligence News</span>
@@ -41,9 +42,8 @@ A short summary of what [TrustList](https://trustlist.uk) published each day: ne
 - [Sunday 11 October 2026](2026/10/2026-10-11.md) <span class="meta">8 stories: Rankings, News, HR News, Funding news</span>
 - [Saturday 10 October 2026](2026/10/2026-10-10.md) <span class="meta">15 stories: Rankings, News, Funding news, Blog</span>
 - [Friday 9 October 2026](2026/10/2026-10-09.md) <span class="meta">27 stories: Rankings, Funding news, News, HR News, Blog</span>
-- [Thursday 8 October 2026](2026/10/2026-10-08.md) <span class="meta">43 stories: Rankings, News, Funding news, HR News, Blog, Product News</span>
 
 ## By month
 
-- [November 2026](2026/11/README.md) <span class="meta">6 briefs, 129 stories</span>
+- [November 2026](2026/11/README.md) <span class="meta">7 briefs, 173 stories</span>
 - [October 2026](2026/10/README.md) <span class="meta">27 briefs, 712 stories</span>
