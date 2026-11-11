@@ -11,6 +11,7 @@ permalink: /briefs/2026/11/
 
 Every TrustList daily brief for November 2026, newest first.
 
+- [Wednesday 11 November 2026](2026-11-11.md) <span class="meta">20 stories: Rankings, News, Modern Cars, Robotics &amp; Automation, Security advisories, Funding news, Blog, Business news</span>
 - [Tuesday 10 November 2026](2026-11-10.md) <span class="meta">40 stories: Rankings, Security advisories, Funding news, News, Modern Cars, Autonomous Vehicles &amp; Mobility, Mergers &amp; Acquisitions, HR News</span>
 - [Monday 9 November 2026](2026-11-09.md) <span class="meta">24 stories: Rankings, Autonomous Vehicles &amp; Mobility, Funding news, News, Security advisories, Robotics &amp; Automation, Modern Cars</span>
 - [Sunday 8 November 2026](2026-11-08.md) <span class="meta">7 stories: Rankings, News, Modern Cars, Robotics &amp; Automation</span>
